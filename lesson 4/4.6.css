@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height:4.476vh;
+    width: 100vw;
+    background: #D9D9D9;
+}
+
+main{
+    display: flex;
+}
+.sae{
+    display: flex;
+}
+.isagi{
+    height: 85.586vh;
+    width: 28.819vw;
+    background: #A4A4A4;
+}
+.rin{
+    height: 85.586vh;
+    width: 30.556vw;
+    background: #C1C1C1;
+}
+
+.nagi{
+    height: 42.793vh;
+    width: 40.625vw;
+    background: #7F7A7A;
+}
+
+.bachira{
+    height: 42.793vh;
+    width: 40.625vw;
+    background: #6B6161;
+}
+
+footer{
+    height: 9.937vh;
+    width: 100vw;
+    background: #D9D9D9;
+}

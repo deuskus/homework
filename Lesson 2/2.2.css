@@ -1,0 +1,19 @@
+.main{
+    height: 300px;
+    width: 1440px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.litle{
+    height: 120px;
+    width: 120px;
+    background-color: darkred;
+    margin: 40px;
+    transition: 0.5s;
+}
+.litle:hover{
+    border-radius: 50%;
+    background-color: grey;
+}

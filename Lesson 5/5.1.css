@@ -1,0 +1,28 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #1E1E1E;
+}
+
+
+.rotating-box {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #B3A0CD, #D1EF53);
+    border-radius: 10px;
+    animation: rotate 3s infinite linear;
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    flex-direction: column;
+
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    text-decoration: none;
+
+}
+section>p{
+    width:70%;
+    font-size: 18px;
+
+}
+section>a{
+    font-size:40px;
+    color: black;
+}
+#first{
+    background-color: pink;
+}
+#second{
+    background-color: yellow;
+}
+#three{
+    background-color: blue;
+}
