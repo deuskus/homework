@@ -1,0 +1,10 @@
+@media screen and (min-device-width: 750px) and (max-device-width: 1250px) {
+
+    .cards{
+        width: 750px;
+    }
+    .card{
+        width:218px;
+    }
+    
+}

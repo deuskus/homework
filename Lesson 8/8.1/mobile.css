@@ -1,0 +1,12 @@
+@media screen and (max-device-width: 500px) {
+
+    .cards{
+        width: 100%;
+        padding: 32px 16px;
+        gap: 40px;
+    }
+    .card{
+        width:100%
+    }
+
+}
